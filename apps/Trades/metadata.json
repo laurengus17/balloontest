@@ -3,6 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "22904732-9f89-4f3e-8097-bd259679a577",
   "appTemplate": {
+    "appThemeId": 1,
     "pageCodeFolders": {
       "object": {
         "mockDataTrades": {
@@ -146,7 +147,8 @@
       }
     },
     "isGlobalWidget": true,
-    "version": "3.52.1",
+    "appThemeName": "Test Dark",
+    "version": "3.149.0",
     "experimentalDataTabEnabled": true
   }
 }

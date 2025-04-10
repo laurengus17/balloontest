@@ -247,6 +247,7 @@
       id="link4"
       hidden="{{!getTradeAndEquipment.data.trades[i]?.tradeLicenseFile?.getUrl}}"
       text="View License"
+      textSize="default"
     >
       <Event
         event="click"
@@ -354,7 +355,7 @@
         label="ID"
         placeholder="Enter value"
         position="center"
-        size={31.109375}
+        size={29.078125}
         summaryAggregationMode="none"
       />
       <Column
@@ -366,7 +367,7 @@
         label="First name"
         placeholder="Enter value"
         position="center"
-        size={78.0625}
+        size={76.53125}
         summaryAggregationMode="none"
       />
       <Column
@@ -378,7 +379,7 @@
         label="Last name"
         placeholder="Enter value"
         position="center"
-        size={81.53125}
+        size={82}
         summaryAggregationMode="none"
       />
       <Column
@@ -390,7 +391,7 @@
         key="email"
         label="Email"
         position="center"
-        size={204.390625}
+        size={205.671875}
         summaryAggregationMode="none"
       >
         <Event
@@ -412,7 +413,7 @@
         key="website"
         label="Website"
         position="center"
-        size={195.015625}
+        size={196.6875}
         summaryAggregationMode="none"
       >
         <Event
@@ -460,7 +461,7 @@
         }}
         placeholder="Select option"
         position="center"
-        size={71.4375}
+        size={70.9375}
         summaryAggregationMode="none"
         valueOverride="{{ _.startCase(item) }}"
       />
@@ -476,7 +477,7 @@
         label="Teams"
         placeholder="Select options"
         position="center"
-        size={259.234375}
+        size={253.796875}
         summaryAggregationMode="none"
         valueOverride="{{ currentSourceRow.teams }}"
       />
@@ -489,7 +490,7 @@
         label="Enabled"
         placeholder="Enter value"
         position="center"
-        size={63.4375}
+        size={61.703125}
         summaryAggregationMode="none"
       />
       <Column
@@ -501,7 +502,7 @@
         label="Created at"
         placeholder="Enter value"
         position="center"
-        size={152.609375}
+        size={146.453125}
         summaryAggregationMode="none"
       />
       <Event
